@@ -19,3 +19,14 @@ $ git push origin master
 git을 쓴다 >> local computer/local repository 에서 작업한다.
 github을 쓴다. >> remote repository에서 작업한다.
 
+PATH=$PATH:폴더
+Bash
+기존의 PATH 뒤에 추가하고 싶은 폴더를 쓰면 된다. 윈도우에서는 폴더 사이의 구분자가 세미콜론(;)이지만 리눅스에서는 콜론(:)이다.
+
+2 실행 예시
+[root@localhost ~]# echo $PATH
+/usr/local/sbin:/bin:/usr/sbin:/usr/bin
+console
+[root@localhost ~]# PATH=$PATH:/home:/var
+[root@localhost ~]# echo $PATH
+/usr/local/sbin:/bin:/usr/sbin:/usr/bin:/home:/var

@@ -16,4 +16,6 @@ $ git push origin master
 --- update change in the remote repository (aka. github) ---
 
 
+git을 쓴다 >> local computer/local repository 에서 작업한다.
+github을 쓴다. >> remote repository에서 작업한다.
 

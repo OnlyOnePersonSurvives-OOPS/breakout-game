@@ -1,0 +1,19 @@
+The holy trinity of Git
+
+git add
+git commit
+git push
+
+ex)
+
+$ git add -A (내가 이런이런 변경된 파일들을 변경사항에 올리고 싶다.)
+$ git commit -m "New file added: add.c" 
+--- update change in the local repository ---
+
+commit 메세지가 굉장히 중요. vim을 쓰지 않으면 이를 다루기 까다로움
+
+$ git push origin master
+--- update change in the remote repository (aka. github) ---
+
+
+
